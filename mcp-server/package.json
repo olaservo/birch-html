@@ -1,0 +1,29 @@
+{
+  "name": "birch-html-mcp",
+  "version": "0.1.0",
+  "description": "MCP server wrapper exposing the birch-html skill as a skill:// resource",
+  "type": "module",
+  "bin": {
+    "birch-html-mcp": "dist/server.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@olaservo/ext-skills": "^0.9.0",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "Apache-2.0"
+}
