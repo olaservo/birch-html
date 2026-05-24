@@ -3,7 +3,7 @@
 A minimal MCP server that exposes the `birch-html` skill (the canonical
 `skill/SKILL.md` and all supporting files in `../skill/`) as `skill://`
 resources, conformant with the
-[Skills Extension SEP](https://github.com/modelcontextprotocol/experimental-ext-skills/pull/69).
+[Skills Extension SEP-2640](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2640).
 
 The server registers:
 
@@ -65,4 +65,4 @@ npx @modelcontextprotocol/inspector node dist/server.js
 ## Related
 
 - [Skills Extension SDK](https://github.com/modelcontextprotocol/experimental-ext-skills) — the SDK this wraps
-- [SEP-2640](https://github.com/modelcontextprotocol/experimental-ext-skills/pull/69) — the spec
+- [SEP-2640](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2640) — the spec
