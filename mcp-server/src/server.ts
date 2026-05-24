@@ -23,15 +23,9 @@ const frontmatter = extractFrontmatter(content);
 const name = requireString(frontmatter.name, "name");
 const description = requireString(frontmatter.description, "description");
 
-if (name !== "birch-html") {
-  throw new Error(
-    `Unexpected skill name in frontmatter: "${name}" (expected "birch-html")`,
-  );
-}
-
 const skill: SkillMetadata = {
   name,
-  skillPath: "birch-html",
+  skillPath: name,
   description,
   absolutePath: skillMdPath,
   skillDir,
